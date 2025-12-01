@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnEvolve</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header class="header">
+        <!--Barra de navegación-->
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__title-container">
+            <h1>LearnEvolve</h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><img src="icons/icon0.png" alt=""><a href="index.html">Inicio</a></li>
+                <li class="header__nav-item"><img src="icons/icon1.png" alt=""><a href="contacto.html">Contacto</a></li>
+                <li class="header__nav-item"><img src="icons/icon2.png" alt=""><a href="recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button class="next-exam" onclick="window.location.href='examen3.html'">
+        Siguiente examen
+    </button>
+    <main class="container__content">
+        <section class="app">
+            <h1>Examen redes parte 2</h1>
+            <div class="quiz">
+                <h2 id="pregunta">Pregunta</h2>
+                <div id="botonRespuesta">
+                    <button class="btn">respuesta 1</button>
+                    <button class="btn">respuesta 2</button>
+                    <button class="btn">respuesta 3</button>
+                    <button class="btn">respuesta 4</button>
+                </div>
+                <button id="next-btn">siguiente</button>
+            </div>
+        </section>
+    <script src="script2.js"></script>
+    </main>
+    <!------ Pie de página ------>
+    <footer class="site-footer">
+        <p>&copy; 2025 LearnEvolve. Todos los derechos reservados.</p>
+        <ul>
+            <li><strong>Autor:</strong> Miguel Angel Jimenez Pérez</li>
+            <li><strong>Escuela:</strong> Universidad tecnologica de tecamac</li>
+            <li><strong>Redes sociales:</strong> <a href="https://www.instagram.com/miguel_jp1003?igsh=dzByMW1seXgxMm1j">miguel_jp1003</a> y <a href="https://www.instagram.com/maikwaree?igsh=aW45YWhsem1xcGg0">maikwaree</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
